@@ -33,3 +33,13 @@ int main() {
    printf("A média consumida de  por Km é, %.1f\n", c); 
    return 0; 
 } 
+
+#include <stdio.h> 
+int main() { 
+   float a, b, c; 
+   printf("Peso? "); 
+   scanf("%f %f", &a, &b); 
+   c = a / (b * b);  
+   printf("Imc = %.1f\n", c); 
+   return 0; 
+} 
