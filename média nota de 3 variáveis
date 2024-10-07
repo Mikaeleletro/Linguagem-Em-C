@@ -1,0 +1,12 @@
+// media de um aluno
+#include <stdio.h> 
+int main(void) { 
+   float a, b, c, d; 
+   printf("Notas? "); 
+   scanf("%f %f %f", &a, &b, &d); 
+   c = (a+b+d)/3;  
+   printf("Media = %.1f\n", c); 
+   if( c >= 7.0 ) printf("Aprovado\n"); 
+   else printf("Reprovado\n"); 
+   return 0; 
+} 
