@@ -43,3 +43,17 @@ int main() {
    printf("Imc = %.1f\n", c); 
    return 0; 
 } 
+//tempo gasto para carregar um arquivo.
+#include<stdio.h>
+
+int main(){
+   float a, b, c;
+   printf("qual o tamanho do arquivo?");
+   scanf("%f", &a);
+   printf("Qual a velocidade de bits por segundo??");
+   scanf("%f", &b);
+   c = a/b;
+   printf("o tempo a ser gasto é %.2f segundos", c);
+   return 0;
+}
+
