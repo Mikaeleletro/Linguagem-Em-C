@@ -77,3 +77,21 @@ int main(){
    printf("o montante é %.2f", c);
    return 0;
 }
+
+#include<stdio.h>
+int main(){
+   int a, b;
+   printf("sua idade?\n");
+   scanf("%d", &a);
+   printf("idade a ser comparada\n");
+   scanf("%d", &b);
+   if (a = b) {
+       printf("a é igual ao b\n");
+ }
+   if (a>b) {
+      printf("a é maior que b\n");
+      
+   }
+   else printf("b é maior que a\n");
+   return 0;
+}
