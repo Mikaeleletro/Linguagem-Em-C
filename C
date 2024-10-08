@@ -77,7 +77,7 @@ int main(){
    printf("o montante é %.2f", c);
    return 0;
 }
-
+//comparação de idades
 #include<stdio.h>
 int main(){
    int a, b;
@@ -95,3 +95,30 @@ int main(){
    else printf("b é maior que a\n");
    return 0;
 }
+//média nota final, para reprovado, aprovado ou prova final.
+#include <stdio.h> 
+int main() { 
+   float a, b, c, d, e; 
+   printf("Notas? "); 
+   scanf("%f %f %f %f", &a, &b, &d, &e); 
+   c = (a+b+d+e)/4;  
+   printf("Media = %.1f\n", c); 
+   if( c > 7.0 ) 
+   {
+      printf("Aprovado\n"); 
+      return 0;
+   } 
+    if (c >= 4 && c <= 7) 
+    {
+      printf("prova final");
+      return 0;
+    }
+   if (c < 4.0)
+    {
+      printf("Reprovado");
+      return 0;
+    }
+   return 0;
+}
+
+
