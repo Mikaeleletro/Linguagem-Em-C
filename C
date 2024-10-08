@@ -1,12 +1,16 @@
-#include <stdio.h>
-int main(){
-    int numero1 = 6;
-    int numero2 = 20;
-    int soma;
-    chat letra = '1',
-    char nome[7] ={roberto};
-    printf("%c, letra");
-//dado a largura, comprimento e o valor do metro quadrado do carpete, o programa compila e dar o valor do carpete por Metro quadrado. 
+//ex-2-1.c
+#include <stdio.h> 
+int main() { 
+   float a, b, c; 
+   printf("Distância percorrida?\n"); 
+   scanf("%f",  &a);
+   printf("Litros Consumidos ");
+   scanf("%f",  &b);
+   c = a / b;  
+   printf("A média consumida de  por Km é, %.1f\n", c); 
+   return 0; 
+} 
+//ex-2-2.c
 }
 #include <stdio.h> 
 int main() { 
@@ -21,19 +25,8 @@ int main() {
    printf("o Valor a ser pago é %.2f", d);
    return 0;
 }
-//litros consumidos por Km.
-#include <stdio.h> 
-int main() { 
-   float a, b, c; 
-   printf("Distância percorrida?\n"); 
-   scanf("%f",  &a);
-   printf("Litros Consumidos ");
-   scanf("%f",  &b);
-   c = a / b;  
-   printf("A média consumida de  por Km é, %.1f\n", c); 
-   return 0; 
-} 
-//IMC.
+
+//ex-2-3.c 
 #include <stdio.h> 
 int main() { 
    float a, b, c; 
@@ -43,7 +36,7 @@ int main() {
    printf("Imc = %.1f\n", c); 
    return 0; 
 } 
-//tempo gasto para carregar um arquivo.
+//ex-2-4.c
 #include<stdio.h>
 
 int main(){
@@ -56,4 +49,19 @@ int main(){
    printf("o tempo a ser gasto é %.2f segundos", c);
    return 0;
 }
-
+ //ex-2-5.c
+#include <stdio.h>
+#include <math.h>
+int main(){
+   float a, b, c;
+   int d;
+   printf("qual o capital?\n ");
+   scanf("%f", &a);
+   printf("Qual o juros?\n");
+   scanf("%f", &b);
+   printf("período?\n");
+   scanf("%d", &d);
+   c = a*pow(1+b/100,d);
+   printf("o montante é %.2f", c);
+   return 0;
+}
