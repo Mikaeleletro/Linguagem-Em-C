@@ -6,7 +6,7 @@ int main(){
     chat letra = '1',
     char nome[7] ={roberto};
     printf("%c, letra");
-    
+//dado a largura, comprimento e o valor do metro quadrado do carpete, o programa compila e dar o valor do carpete por Metro quadrado. 
 }
 #include <stdio.h> 
 int main() { 
@@ -21,7 +21,7 @@ int main() {
    printf("o Valor a ser pago é %.2f", d);
    return 0;
 }
-
+//litros consumidos por Km.
 #include <stdio.h> 
 int main() { 
    float a, b, c; 
@@ -33,7 +33,7 @@ int main() {
    printf("A média consumida de  por Km é, %.1f\n", c); 
    return 0; 
 } 
-
+//IMC.
 #include <stdio.h> 
 int main() { 
    float a, b, c; 
