@@ -21,9 +21,8 @@ int main() {
    c = a / b;  
    printf("A média consumida de  por Km é, %.1f\n", c); 
    return 0; 
-} 
-//ex-2-2.c
 }
+//ex-2-2.c
 #include <stdio.h> 
 int main() { 
    float a, b, c, d; 
