@@ -1,0 +1,31 @@
+3.1
+#include <stdio.h>
+int main(){
+   int a , b;
+   printf("qual o numeros de folhas copiadas?");
+   scanf("%d", &a);
+   if (a >= 100 ) {
+      b = a * 0.20;
+      printf("o valor total a ser pago eh: %d", b);
+   }
+   else 
+   b = a * 0.25;
+   printf("o valor total a ser pago eh: %d", b);
+}
+
+3.2
+#include <stdio.h>
+int main(){
+   int a, b, c;
+   printf("qual a quantidade de pecas produzidas??\n\n");
+   scanf("%d", &a);
+   printf("Qual o numero de pecas defeituosas?\n\n");
+   scanf("%d", &b);
+   c = a * 10 / 100;
+   if (b >= c){
+   printf("a maquina prescisa de manuntecao");
+   return 0;
+   }
+   printf("nao prescisa de manutencao");
+}
+
