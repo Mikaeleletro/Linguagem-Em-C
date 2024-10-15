@@ -1,4 +1,70 @@
-3.1
+//ex-2-1.c
+#include <stdio.h> 
+int main() { 
+   float a, b, c; 
+   printf("Distância percorrida?\n"); 
+   scanf("%f",  &a);
+   printf("Litros Consumidos ");
+   scanf("%f",  &b);
+   c = a / b;  
+   printf("A média consumida de  por Km é, %.1f\n", c); 
+   return 0; 
+}
+//ex-2-2.c
+#include <stdio.h> 
+int main() { 
+   float a, b, c, d; 
+   printf("Qual o valor da Largura?\n");
+   scanf("%f", &a);
+   printf("Qual o Comprimento?\n");
+   scanf("%f", &b);
+   printf("Qual o valor do M quadrado?\n");
+   scanf("%f", &c);
+   d = (a * b) / c;
+   printf("o Valor a ser pago é %.2f", d);
+   return 0;
+}
+
+//ex-2-3.c 
+#include <stdio.h> 
+int main() { 
+   float a, b, c; 
+   printf("Peso? "); 
+   scanf("%f %f", &a, &b); 
+   c = a / (b * b);  
+   printf("Imc = %.1f\n", c); 
+   return 0; 
+} 
+//ex-2-4.c
+#include<stdio.h>
+
+int main(){
+   float a, b, c;
+   printf("qual o tamanho do arquivo?");
+   scanf("%f", &a);
+   printf("Qual a velocidade de bits por segundo??");
+   scanf("%f", &b);
+   c = a/b;
+   printf("o tempo a ser gasto é %.2f segundos", c);
+   return 0;
+}
+ //ex-2-5.c
+#include <stdio.h>
+#include <math.h>
+int main(){
+   float a, b, c;
+   int d;
+   printf("qual o capital?\n ");
+   scanf("%f", &a);
+   printf("Qual o juros?\n");
+   scanf("%f", &b);
+   printf("período?\n");
+   scanf("%d", &d);
+   c = a*pow(1+b/100,d);
+   printf("o montante é %.2f", c);
+   return 0;
+}
+//ex-3-1.c
 #include <stdio.h>
 int main(){
    int a , b;
@@ -13,7 +79,7 @@ int main(){
    printf("o valor total a ser pago eh: %d", b);
 }
 
-3.2
+//ex-3-2.c
 #include <stdio.h>
 int main(){
    int a, b, c;
@@ -29,7 +95,7 @@ int main(){
    printf("nao prescisa de manutencao");
 }
 
-3.3
+//ex-3-3.c
 #include <stdio.h>
 int main(){
    int a;
@@ -47,8 +113,7 @@ int main(){
    }
 }
 
-3.4
-
+//ex-3-4.c
 #include <stdio.h>
 int main(){
    int a, b, c;
@@ -69,8 +134,7 @@ int main(){
    }
 }
 
-3.5
-
+//ex-3-5.c
 #include <stdio.h>
 int main(){
     int a, b, c;
