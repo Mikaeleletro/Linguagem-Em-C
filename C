@@ -55,54 +55,56 @@ int main() {
 }
 
 
-include <stdio.h>
+
+#include <stdio.h>
 int main(){
     float a, b;
-    int c, d;
-    printf("qual a operação desejada?\n (1) adição;\n (2) subtração;\n (3) multiplicação;\n (4) divisão; \n (0) finalizar programa. \n");
+    float d;
+    int c;
+    printf("qual a operação desejada?\n (1) adicao;\n (2) subtracao;\n (3) multiplicacao;\n (4) divisao; \n (0) finalizar programa. \n");
     scanf("%d", &c);
     if (c == 1) {
-    printf ("quais os números a serem somados?(apenas dois)\n\n");
-    printf("digite o primeiro número...");
-    scanf("%d", &a);
-    printf("digite o segundo número...");
-    scanf("%d", &b);
+    printf ("quais os numeros a serem somados?(apenas dois)\n\n");
+    printf("digite o primeiro numero...");
+    scanf("%f", &a);
+    printf("digite o segundo numero...");
+    scanf("%f", &b);
     d = (a + b);
-    printf ("a soma dos dois numeros eh %d\n\n", d);
+    printf ("a soma dos dois numeros eh %f\n\n", d);
     return main();
     }
     if (c == 2) {
-    printf("quais os números a serem subtraídos?(apenas dois)\n\n");
-    printf("digite o primeiro número...");
-    scanf("%d", &a);
-    printf("qual o segundo número?...");
-    scanf("%d", &b);
+    printf("quais os numeros a serem subtraidos?(apenas dois)\n\n");
+    printf("digite o primeiro numero...");
+    scanf("%f", &a);
+    printf("qual o segundo numero?...");
+    scanf("%f", &b);
     d = (a - b);
-    printf (" a subtração dos dois número é %d\n\n", d);
+    printf (" a subtração dos dois numero eh %f\n\n", d);
     return main();
     }
     if (c == 3) {
-    printf("quais os números a serem multiplicados?(apenas dois)\n\n");
-    printf(" digite o primeiro número...");
-    scanf("%d", &a);
-    printf("digite o segundo número...");
-    scanf("%d", &b);
+    printf("quais os numeros a serem multiplicados?(apenas dois)\n\n");
+    printf(" digite o primeiro numero...");
+    scanf("%f", &a);
+    printf("digite o segundo numero...");
+    scanf("%f", &b);
     d = a * b;
-    printf("a multiplicação dos dois número eh %d\n\n", d);
+    printf("a multiplicacao dos dois numero eh %f\n\n", d);
     return main();
     }
     if (c == 4) {
-    printf("quais os números a serem dividos?\n\n");
-    printf("digite o primeiro número...");
-    scanf("%d", &a);
-    printf("digite o segundo número...");
-    scanf("%d", &b);
+    printf("quais os numeros a serem dividos?\n\n");
+    printf("digite o primeiro numero...");
+    scanf("%f", &a);
+    printf("digite o segundo numero...");
+    scanf("%f", &b);
     if (b == 0) {
-    printf("divisão por zero!!\n\n");
+    printf("divisao por zero!!\n\n");
     return main();
     }
     d = a / b;
-    printf("a divisão dos dois número eh %d\n\n", d);
+    printf("a divisao dos dois numero eh %f\n\n", d);
     return main();
     }
     if (c == 0) {
