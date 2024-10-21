@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    char a;
+    char s = 's';
+    char c = 'c';
+    char v = 'v';
+    char d = 'd';
+    printf("informe seu estado civil\n");
+    scanf("%c", &a);
+    if (a == s){printf("solteiro");return 0;}
+    if (a == c){printf("casado");return 0;}
+    if (a == v){printf("viuvo");return 0;}
+    if (a == d){printf("divorciado");return 0;}
+
+    
+    
+}
