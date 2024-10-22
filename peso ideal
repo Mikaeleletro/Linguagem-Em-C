@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    float a, b, c;
+    printf("qual seu sexo (1)masculino (2)feminino\n");
+    scanf("%f", &a);
+    printf("Qual Sua Altura\n");
+    scanf("%f", &b);
+    if (a == 1) {c = 72,7 * b - 58; printf("seu peso ideal eh: %.2f", c);}
+    if (a == 2) {c = 61.1 * b - 44.7; printf("seu peso ideal eh: %.2f", c);}
+}
