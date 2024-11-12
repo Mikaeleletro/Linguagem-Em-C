@@ -3,7 +3,7 @@ int main(){
     float a, b;
     float d;
     int c;
-    printf("qual a operação desejada?\n (1) adicao;\n (2) subtracao;\n (3) multiplicacao;\n (4) divisao; \n (0) finalizar programa. \n");
+    printf("qual a operacao desejada?\n (1) adicao;\n (2) subtracao;\n (3) multiplicacao;\n (4) divisao; \n (0) finalizar programa. \n");
     scanf("%d", &c);
     if (c == 1) {
     printf ("quais os numeros a serem somados?(apenas dois)\n\n");
