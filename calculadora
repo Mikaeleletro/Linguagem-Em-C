@@ -12,7 +12,7 @@ int main(){
     printf("digite o segundo numero...");
     scanf("%f", &b);
     d = (a + b);
-    printf ("a soma dos dois numeros eh %f\n\n", d);
+    printf ("a soma dos dois numeros eh %.2f\n\n", d);
     return main();
     }
     if (c == 2) {
@@ -22,7 +22,7 @@ int main(){
     printf("qual o segundo numero?...");
     scanf("%f", &b);
     d = (a - b);
-    printf (" a subtração dos dois numero eh %f\n\n", d);
+    printf (" a subtração dos dois numero eh %.2f\n\n", d);
     return main();
     }
     if (c == 3) {
@@ -32,7 +32,7 @@ int main(){
     printf("digite o segundo numero...");
     scanf("%f", &b);
     d = a * b;
-    printf("a multiplicacao dos dois numero eh %f\n\n", d);
+    printf("a multiplicacao dos dois numero eh %.2f\n\n", d);
     return main();
     }
     if (c == 4) {
@@ -46,10 +46,11 @@ int main(){
     return main();
     }
     d = a / b;
-    printf("a divisao dos dois numero eh %f\n\n", d);
+    printf("a divisao dos dois numero eh %.2f\n\n", d);
     return main();
     }
     if (c == 0) {
     return 0;
     }
 }
+
