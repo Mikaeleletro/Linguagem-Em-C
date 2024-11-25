@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main(){
+    int a = 0;
+    int b = 0;
+    int c = 0;
+    int h = 0;
+    int e, f,
+     t;
+    printf("quantos eleitores?");
+    scanf("%d", &f);
+    for(e = 1; e <= f; e++){
+        printf("Informacoes: candidato a = '1';\ncandidato b = 2,\n candidato c = 3.\n");
+        printf("voto %d? ", e);
+        scanf("%d", &t);
+        switch (t)
+        {
+        case 1:
+            a++;
+            break;
+        case 2:
+            b++;
+            break;
+        case 3:
+            c++;
+            break;
+        default:
+        h++;
+            break;
+        }
+    }
+        
+        printf(" os votos foram distribuidos da seguinte maneira:\n candidato a = %d\n", a);
+        printf("candidato b = %d\n", b);
+        printf("candidato c = %d\n", c);
+        printf("nulos = %d", h);
+
+}
