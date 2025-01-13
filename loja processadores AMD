@@ -1,32 +1,35 @@
-#include <stdio.h>
+include <stdio.h>
 int main(){
     int a;
-    int b;
+   int b;
     int c;
+    int d;
     printf("que opcao desejas ver?\n\n (1)processadores\n (2)placas de vidio");
     scanf("%d", &a);
     if(a == 1){
       printf("processaores em oferta!\n");
-      printf("digite '0' para voltar ao menu principal");
-      printf("qual linha de processador voce pretende comprar?");
+      printf("digite '0' para voltar ao menu principal\n");
+      printf("qual linha de processador voce pretende comprar?\n");
       printf("(5)quinta geracao\n (7) setima geracao");
       scanf("%d", &b);
+      //processadores de 5° geração
       if(b == 5){
-        printf("processadores de quinta geracao em estoque!");
+        printf("processadores de quinta geracao em estoque!\n");
         printf("digite o numero do processador para saber suas especificacoes\n\n");
         printf("(1)ryzen 5600g\n (2)ryzen 5600GT \n (3)ryzen 9 5950X");
         scanf("%d", &c);
         if(c == 1){
-          printf("Nome AMD Ryzen™ 5 5600G\nFamilia: Ryzen\n Serie: Ryzen 5000 Series\n Nº de nucleos de CPU6\nNº de threads12\nAumento de clock max. Ate 4.4 GHz\nClock basico 3.9 GHz\nCache L23 MB");
+          printf("Nome: AMD Ryzen™ 5 5600G\nFamilia: Ryzen\n Serie: Ryzen 5000 Series\n N de nucleos de CPU: 6\nN de threads: 12\nAumento de clock max. Ate 4.4 GHz\nClock basico 3.9 GHz\nCache L23 MB");
         }
         if(c == 2){
-          printf("Nome: AMD Ryzen™ 5 5600GT\n Familia: Ryzen\n Serie: Ryzen 5000 Series\n N de nucleos de CPU 6\n Nº de threads 12\n Aumento de clock max. Até 4.6 GHz\n Clock basico  3.6 GHz\n");
+          printf("Nome: AMD Ryzen™ 5 5600GT\n Familia: Ryzen\n Serie: Ryzen 5000 Series\n N de nucleos de CPU: 6\n N de threads: 12\n Aumento de clock max. Até 4.6 GHz\n Clock basico  3.6 GHz\n");
         }
         if(c == 3){
-          printf("Nome: AMD Ryzen™ 9 5950X\n Familia Ryzen\n Serie: Ryzen 5000 Series\n N de nucleos de CPU 16\n N de threads 32\n Aumento de clock max. Ate 4.9 GHz\n Clock basico  3.4 GHz\n");
+          printf("Nome: AMD Ryzen™ 9 5950X\n Familia Ryzen\n Serie: Ryzen 5000 Series\n N de nucleos de CPU: 16\n N de threads: 32\n Aumento de clock max. Ate 4.9 GHz\n Clock basico  3.4 GHz\n");
         }
-
+        if(c == 0){return main();}
       }
+      //processadores de 7° geração 
         if(b == 7){
           printf("processadores de setima geracao em estoque!");
           printf("digite '0' para voltar ao menu principal\n");
@@ -35,7 +38,8 @@ int main(){
           scanf("%d", &c);
           if(c == 1){
             printf("Nome: AMD Ryzen™ 5 7600\n Familia: Ryzen\n Serie: Ryzen 7000 Series\n N de núcleos de CPU 6\n N de threads 12\n Aumento de clock max. Ate 5.1 GHz ");
-          }         
+          }
+          }        
         }
-    }
 }
+    
